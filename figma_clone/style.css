@@ -1,0 +1,364 @@
+.navbar {
+    background-color: #ffffff;
+    display: inline-block;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.441);
+    width: 100%;
+    position: sticky;
+    z-index: 26;
+    margin-right: 20px;
+}
+
+body {
+    margin: 0px 50px 0px 50px;
+}
+
+.left-side {
+    margin-left: 30px;
+}
+.navbar-list li {
+    list-style-type: none;
+    display: inline-block;
+    padding-right: 15px;
+    font-size: 1.250rem;
+    cursor: pointer;
+    vertical-align: bottom;
+    margin-right: 20px;
+}
+
+.navbar-list li.right-side {
+    float: right;
+    padding-right: 30px;
+}
+
+#figma-logo {
+    height: 30px;
+    width: 25px;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.navbar-list li:hover{
+    text-decoration: underline;
+}
+
+#white-bg {
+    border: 1px solid black;
+    text-align: center;
+    border-radius: 8px;
+    padding: 0.7rem 1.3125rem;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+#black-bg {
+    background-color: black;
+    color: white;
+    padding: 0.7rem 1.3125rem;
+    margin-right: 12px;
+    border-radius: 8px;
+}
+
+#niche {
+    vertical-align: baseline;
+    padding-top: 10px;
+}
+
+#white-bg:hover {
+    padding: 0.9rem 1.4rem;
+    font: 1.13px;
+}
+
+#black-bg:hover {
+    padding: 0.9rem 1.4rem;
+    font: 1.13px;
+}
+
+
+.headingtext {
+    padding-top: 20px;
+}
+
+.text-content {
+    width: 60%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#headertext {
+    font-size: 60px;
+    font-family: sans-serif;
+}
+
+#normaltext {
+    font-size: 30px;
+    font-family: sans-serif;
+}
+
+#getstartedbutton {
+    background-color: black;
+    color: white;
+    padding: 15px 30px;
+    font-size: 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    display: inline-block; 
+}
+
+#getstartedbutton:hover {
+    padding: 20px 35px;
+}
+#gifimage {
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+}
+
+.below-image-container {
+    text-align: center; 
+    margin-top: 20px; 
+}
+
+#below-image {
+    max-width: 100%;
+    height: auto; 
+    display: block; 
+    margin: 0 auto; 
+}
+
+.options {
+    text-align: center;
+}
+
+.op1 {
+    list-style-type: none;
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.op1 li {
+    display: inline-block;
+    margin: 0px 10px;
+    margin-top: 40px;
+    cursor: pointer;
+} 
+
+#o1 {
+    background-color: rgba(128, 128, 128, 0.441);
+    border-radius: 3.125rem;
+    padding: 18px;
+}
+
+#op1:hover {
+    transition: background 160ms ease-out, border-radius 160ms ease-out;
+}
+
+#o2 {
+    border-radius: 3.125rem;
+    padding: 18px;
+}
+
+#o2:hover {
+    background-color: rgba(21, 197, 77, 0.942);
+    transition: background 160ms ease-out, border-radius 180ms ease-out;
+}
+
+#o3 {
+    border-radius: 3.125rem;
+    padding: 18px;
+}
+
+#o3:hover {
+    background-color: rgba(223, 116, 238, 0.942);
+    transition: background 160ms ease-out, border-radius 180ms ease-out;
+}
+
+#o4 {
+    border-radius: 3.125rem;
+    padding: 18px;
+}
+
+#o4:hover {
+    background-color: rgba(233, 193, 17, 0.942);
+    transition: background 160ms ease-out, border-radius 180ms ease-out;
+}
+
+#normaltext2 {
+    font-size: 1.5rem;
+}
+
+#link1 {
+    font-size: 1.125rem;
+    color: black;
+    font-weight: 400;
+}
+
+#link1:hover{
+    font-size: 1.3rem;
+}
+
+#image2 {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-top: 180px;
+}
+.img-text {
+    margin-top: 250px;
+    display: block;
+    margin: 0 auto 30px auto;
+}
+
+#text2 {
+    font-size: 2.75rem;
+    padding: 0;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 0;
+    text-align: left;
+}
+
+#githubimg {
+    width: 300px;
+    height: 250px;
+    display: inline-block;
+    vertical-align: top; 
+}
+
+.purpback {
+    background-color: #CB9FD2;
+    padding-block: 5rem;
+    max-width: 100%;
+    display: block;
+    border-radius: 18px;
+    padding-left: 60px;
+}
+
+#normaltext3 {
+    font-size: 44px;
+    margin-top: 50px;
+    display: block;
+    font-weight: 400;
+    font-family: var(--f-font-sans, '__figmaSans_426942', '__figmaSans_Fallback_426942', SF Pro Display, system-ui, helvetica, sans-serif);
+}
+
+#headertext3 {
+    font-size: 24px;
+}
+
+#normaltext4 {
+    font-size: 24px;
+}
+
+#link2 {
+    font-size: 20px;
+    font-family: 'Times New Roman';
+    color: black;
+}
+
+#link2:hover {
+    font-size: 22px;
+}
+
+.navlist {
+    display: flex;
+    align-items: flex-start;
+    height: auto;
+}
+.DSME {
+    border-bottom: 1px solid black;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.DSME li{
+    list-style-type: none;
+    font-size: 24px;
+    border-top: 1px solid black;
+    display: block;
+    padding: 24px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.DSME li:hover {
+    font-size: 26px;
+}
+
+.uximg {
+    height: 514px;
+    width: 950px;
+    display: inline-block;
+}
+
+.block3 {
+    background-color: #FFFFFF;
+    border-radius: 18px;
+    height: auto;
+    width: 100%;
+    margin-top: 50px;    
+}
+
+.normaltext5 {
+    font-size: 44px;
+    font-family: sans-serif;
+    margin-left: 25px;
+    font-weight: bold;
+    
+}
+
+.forimg {
+    display: flex;
+    align-items: flex-start;
+    height: auto;
+}
+
+.pantagonia {
+    display: inline-block;
+}
+
+.cheat {
+    width: 100%;
+    height: auto;
+    max-width: 1400px;
+    display: block;
+    margin: 0px auto;
+}
+
+.headertext4 {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 40px;
+    border-radius: 18px;
+}
+
+.Lfigma {
+    font-size: 44px;
+}
+
+.linklist {
+    border-bottom: 1px solid rgba(256, 256, 256, 0.2);
+}
+.linklist li{
+    list-style-type: none;
+    font-size: 30px;
+    display: inline-block;
+    padding: 2rem;
+    margin-right: 20px;
+}
+
+.linklist li:hover {
+    font-size: 32px;
+    text-decoration: underline;
+    text-decoration-color: yellow;
+}
+
+.listpanel {
+    background-color: black;
+    color: white;
+}
